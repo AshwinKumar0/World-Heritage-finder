@@ -1,0 +1,122 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, sans-serif;
+	/* background-color: #fdfddd; */
+	margin: 0;
+	padding: 0;
+  }
+  
+  h1 {
+	text-align: center;
+	margin-top:10px;
+	padding: 30px;
+	background-color:rgb(87, 156, 161);
+	color:white;
+	position: fixed;
+	width: 100%;
+  }
+  
+  form {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	margin-top: 30px;
+  }
+  
+  label {
+	margin-right: 10px;
+	font-size: 1.5rem;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 600;
+	padding-top: 5px;
+  }
+  
+  input[type="text"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	box-shadow: 2px 1px 2px 1px;
+  }
+  
+  button[type="submit"] {
+	background-color: #338f0eea;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  #world-heritage-list {
+	max-width: 80%;
+	margin: 0 auto;
+	margin-top: 30px;
+	/* border: 2px dotted black; */
+	background: #7293eb;
+	box-shadow: 2px 0px 4px 4px;
+  }
+  
+ #cordinate{
+	color: black;
+	/* background:rgba(172, 255, 47, 0.452); */
+	display: flex;
+	justify-content: center;
+	gap: 10%;
+	padding: 5px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	/* font-weight: 500; */
+ }
+
+ #Content{
+	/* border: 2px solid red; */
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	background: #ece1d0;
+    gap: 20px;
+	padding-block: 5px;	
+ }
+ #Content h2{
+	/* border: 4px dotted green;
+	margin: 5px; */
+	padding-top: 10px;
+	color: #272626;
+	font-size: 2rem;
+ }
+ h5{
+	padding-top: 15px;
+	padding: 10px;
+ }
+ #Content p{
+	/* margin: 5px;
+	border: 4px dotted blue; */
+	color: #414040;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1.1rem;
+	
+ }
+ #Content img{
+	/* border: 5px solid green; */
+	height: auto;
+	width: 200px;
+ }
+#details{
+	/* border: 5px solid; */
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: 70%;
+}
+#cover{
+	/* background-color: #272626; */
+	border: 0.5px solid black;
+	height: 250px;
+	background-image: url(https://www.techniajz.com/uploads/blog_images/2fb2a522697c0f295308a151632a5794-0x0.jpg);
+}
