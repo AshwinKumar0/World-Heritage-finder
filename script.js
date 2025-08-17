@@ -8,7 +8,7 @@ form.addEventListener('submit', async (event) => {
   const cityName = event.target.elements.cityName.value;
 
   // Use OpenCage API to retrieve latitude and longitude of the city
-  const apiKey = '3066c905848d4cf796044817c45c300b';
+  const apiKey = '7556fd7cb4cc4165870762b13ee5b413';
   const url = `https://api.opencagedata.com/geocode/v1/json?q=${encodeURIComponent(cityName)}&key=${apiKey}`;
   const response = await fetch(url);
   const data = await response.json();
